@@ -1,14 +1,14 @@
 {
-  "name": "telegram_chatbot",
+  "name": "twcss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-telegram-bot-api": "^0.58.0"
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
   }
 }
